@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise Management System",
+  "description": "Premium full-stack SaaS Enterprise Resource Planning platform with active dashboard modules, analytics pipelines, and server-side AI Assistant capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
