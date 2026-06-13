@@ -1,1 +1,52 @@
 
+# OmniCorp - Enterprise Management System
+
+**OmniCorp Enterprise Management System** adalah platform SaaS *Enterprise Resource Planning* (ERP) full-stack premium yang dirancang untuk mengintegrasikan seluruh operasional bisnis dalam satu antarmuka modern, cepat, dan responsif. Dilengkapi dengan asisten bertenaga AI (*AI Co-Pilot*) menggunakan **Gemini API** untuk membantu analisis bisnis real-time secara interaktif.
+
+---
+
+## 🎨 Konsep Desain & Estetika (Visual Polish)
+- **Elegant Slate & Contrast**: Menggunakan warna latar belakang ultra-bersih (`#F9FAFB`) yang dipadukan dengan panel elegan serta dukungan mode gelap (*Dark Mode Compatibility*).
+- **Typography & Rhythm**: Menggunakan font sans-serif modern dengan penataan spasi (*generous negative space*) dan penekanan visual yang seimbang untuk keterbacaan yang maksimal.
+- **Micro-interactions**: Transisi, animasi hover, serta indikator berbasis animasi halus (`motion`) menghadirkan interaksi aplikasi yang mulus dan intuitif.
+
+---
+
+## 🚀 Fitur Utama & Modul Aplikasi
+
+### 1. 📊 Dashboard Utama (Overview ERP)
+- **KPI Real-time**: Metrik performa bisnis utama seperti Saldo Operasional, Total Proyek Aktif, Jumlah Karyawan, dan Peringatan Menipisnya Stok.
+- **Visualisasi Chart Indah**: Grafik performa Keuangan Bulanan interaktif dan sebaran staf karyawan per departemen berbasis Recharts.
+- **Simulasi Input Arus Kas**: Form simulasi pencatatan arus kas secara instan yang langsung memperbarui tabel histori transaksi.
+- **Log Audit Keamanan**: Rekaman aktivitas audit keamanan dan sistem secara dinamis.
+
+### 2. 🛡️ Manajemen Pengguna (Access Control)
+- Manajemen daftar Administrator dan Staff yang memiliki hak akses sistem.
+- Status aktifasi, visual role tag yang dinamis, serta formulir interaktif untuk menambah dan mengedit pengguna.
+
+### 3. 👥 Manajemen Karyawan (Human Resources)
+- **KPI HR Lengkap**: Metrik headcount, rata-rata gaji pokok, persentase kehadiran kerja, dan rerata indeks penilaian KPI (Key Performance Indicator).
+- **CRUD Karyawan**: Sistem manajemen lengkap untuk pendaftaran karyawan baru, perubahan jabatan/gaji, pencarian instan, serta integrasi filter departemen.
+
+### 4. 🗂️ Manajemen Proyek & Kanban (Project Management)
+- **Papan Kanban Interaktif**: Kelola siklus tugas proyek dengan transisi status yang responsif (To-Do, In Progress, Review, Done).
+- Penambahan proyek ataupun tugas baru dilengkapi dengan konfigurasi prioritas serta bobot penyelesaian.
+
+### 5. 🤝 CRM Pelanggan (Customer Relationship Management)
+- Manajemen data *leads* dan prospek pelanggan baru secara end-to-end.
+- Pengaturan prospek (New, Contacted, Proposal, Won, Lost), nilai potensi kesepakatan (*deal value*), dan estimasi penandatanganan kontrak.
+
+### 6. 📦 Manajemen Inventaris (Stock & Supply Chain)
+- Manajemen logistik barang dengan sistem peringatan stok kritis (*minimum stock alert*) otomatis.
+- Filter klasifikasi kategori, penambahan item inventaris, dan pencarian instan.
+
+### 7. 💵 Manajemen Keuangan (Finance Ledger)
+- Dashboard arus kas dinamis dengan perhitungan agregat pengeluaran, pemasukan, profit bersih, serta rasio profit margin.
+- Pencatatan transaksi chronological lengkap dengan pencarian, ekspor data, dan kategorisasi operasional.
+
+### 8. 📈 Analitik & Audit (Data Logging)
+- Pipeline visualisasi data analitik komprehensif, sebaran performa triwulanan, dan transparansi jejak audit akses.
+
+### 9. 🤖 AI Co-Pilot Assistant (Bertenaga Gemini API)
+- Asisten berbasis AI yang terintegrasi di dalam aplikasi menggunakan server-side proxy aman.
+- Dapat diakses kapan saja untuk menanyakan estimasi keuangan, performa stok barang, koordinasi karyawan, maupun perumusan strategi bisnis.
