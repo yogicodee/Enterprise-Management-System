@@ -69,3 +69,14 @@
   - [Google GenAI SDK](https://www.npmjs.com/package/@google/genai) (Integrasi model Gemini secara asinkronus dan aman di sisi server)
 
 ---
+
+## ⚙️ Jalur Konfigurasi & Cara Menjalankan
+
+### 1. Prerekuisite & Variabel Lingkungan
+Konfigurasikan file `.env` di direktori utama Anda berdasarkan `.env.example`:
+
+```env
+# Kunci API Gemini yang aman dan dideklarasikan di sisi server saja
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
