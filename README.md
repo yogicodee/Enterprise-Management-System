@@ -74,9 +74,15 @@
 
 ### 1. Prerekuisite & Variabel Lingkungan
 Konfigurasikan file `.env` di direktori utama Anda berdasarkan `.env.example`:
-
 ```env
 # Kunci API Gemini yang aman dan dideklarasikan di sisi server saja
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
+### 2. Jalankan Mode Development
+Untuk memulai server pengembangan lokal beserta middleware hot-reload Vite:
+```bash
+npm run dev
+```
+Aplikasi akan dapat diakses secara default di port `3000` (http://localhost:3000).
+
 
