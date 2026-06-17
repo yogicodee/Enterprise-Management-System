@@ -84,5 +84,9 @@ Untuk memulai server pengembangan lokal beserta middleware hot-reload Vite:
 npm run dev
 ```
 Aplikasi akan dapat diakses secara default di port `3000` (http://localhost:3000).
-
+### 3. Kompilasi & Build Produksi
+Untuk memaketkan aplikasi frontend statis sekaligus mengompilasi backend server ke `dist/server.cjs` yang stabil:
+```bash
+npm run build
+```
 
