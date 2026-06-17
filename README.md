@@ -50,3 +50,22 @@
 ### 9. 🤖 AI Co-Pilot Assistant (Bertenaga Gemini API)
 - Asisten berbasis AI yang terintegrasi di dalam aplikasi menggunakan server-side proxy aman.
 - Dapat diakses kapan saja untuk menanyakan estimasi keuangan, performa stok barang, koordinasi karyawan, maupun perumusan strategi bisnis.
+
+---
+
+## 🛠️ Stack Teknologi
+
+- **Frontend & UI**:
+  - [React 19](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/)
+  - [Tailwind CSS v4](https://tailwindcss.com/) (Desain adaptif dan berpresisi tinggi)
+  - [Lucide React](https://lucide.dev/) (Set ikon vector yang bersih dan seragam)
+  - [Recharts](https://recharts.org/) (Grafik dan infografis interaktif)
+  - [Motion](https://motion.dev/) (Transisi mikro-interaksi yang halus)
+  
+- **Backend & API**:
+  - [Node.js](https://nodejs.org/) & [Express](https://expressjs.com/) (Server-side API routes & static file server)
+  - [TSX](https://github.com/privatenumber/tsx) (Hot execution TypeScript untuk development)
+  - [Esbuild](https://esbuild.github.io/) (Bundling build produksi backend yang sangat cepat ke format `.cjs` demi kestabilan kontainer)
+  - [Google GenAI SDK](https://www.npmjs.com/package/@google/genai) (Integrasi model Gemini secara asinkronus dan aman di sisi server)
+
+---
