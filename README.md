@@ -89,4 +89,8 @@ Untuk memaketkan aplikasi frontend statis sekaligus mengompilasi backend server 
 ```bash
 npm run build
 ```
-
+### 4. Jalankan Server Produksi
+Untuk menjalankan aplikasi di server produksi / cloud native containers:
+```bash
+npm run start
+```
