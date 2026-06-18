@@ -11,6 +11,10 @@
 - **Micro-interactions**: Transisi, animasi hover, serta indikator berbasis animasi halus (`motion`) menghadirkan interaksi aplikasi yang mulus dan intuitif.
 
 ---
+## Preview
+
+
+---
 
 ## 🚀 Fitur Utama & Modul Aplikasi
 
