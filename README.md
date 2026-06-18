@@ -114,3 +114,6 @@ npm run start
         ├── AiCopilot.tsx  # Drawer interaktif asisten cerdas AI Co-Pilot
         └── ...            # Modul spesifik fitur ERP lainnya
 ```
+
+---
+*OmniCorp Enterprise Management System*
