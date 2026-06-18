@@ -102,3 +102,15 @@ npm run start
 ├── package.json           # Manajemen dependensi dan script runtime pembangunan sistem
 ├── metadata.json          # Izin rujukan and status utama kapabilitas sistem
 └── src/
+    ├── main.tsx           # Titik awal bootstraping bundel frontend React
+    ├── App.tsx            # Komponen Induk, state orchestrator, dan fetcher data utama
+    ├── index.css          # Setup global styling Tailwind CSS & font custom
+    └── components/        # Modul sub-view untuk membagi fungsionalitas core ERP:
+        ├── Sidebar.tsx    # Panel navigasi collapsible interaktif
+        ├── Header.tsx     # Bilah atas, pencarian global, jam live, dan notifikasi
+        ├── DashboardView.tsx # Dashboard ringkasan (Overview KPIs & visual chart)
+        ├── EmployeesView.tsx # Panel Manajemen HR Karyawan termutakhir
+        ├── FinanceView.tsx   # Pembukuan Keuangan dan buku kas
+        ├── AiCopilot.tsx  # Drawer interaktif asisten cerdas AI Co-Pilot
+        └── ...            # Modul spesifik fitur ERP lainnya
+```
