@@ -94,3 +94,11 @@ Untuk menjalankan aplikasi di server produksi / cloud native containers:
 ```bash
 npm run start
 ```
+## 📂 Struktur Utama Proyek
+
+```bash
+├── server.ts              # Entry-point Backend Node/Express + Integrasi Gemini API
+├── vite.config.ts         # Konfigurasi plugin React & Tailwind untuk bundler Vite
+├── package.json           # Manajemen dependensi dan script runtime pembangunan sistem
+├── metadata.json          # Izin rujukan and status utama kapabilitas sistem
+└── src/
